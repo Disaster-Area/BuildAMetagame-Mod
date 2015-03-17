@@ -1,57 +1,7 @@
 exports.BattlePokedex = {
 //Information about each Bammon is located here
-simorgh: {
-	num: -801,
-	species: Simorgh,
-	types: ["Fire", "Flying"],
-	genderRatio: {
-		M: 0.25,
-		F: 0.75
-	},
-	baseStats: {
-		hp: 80,
-		atk: 110,
-		def: 90,
-		spa: 60,
-		spd: 90,
-		spe: 100
-	},
-	abilities: {
-		0: "Enraged"
-	},
-	heightm: 0.0,
-	weightkg: 0.0,
-	color: "Red",
-	eggGroups: ["Undiscovered"],
-	otherFormes: ["simorghmega"]
-},
-simorghmega: {
-	num: -801,
-	species: "Simorgh-Mega",
-	baseSpecies: "Simorgh",
-	forme: "Mega",
-	formeLetter: "M",
-	types: ["Fire", "Flying"],
-	genderRatio: {
-		M: 0.25,
-		F: 0.75
-	},
-	baseStats: {
-		hp: 80,
-		atk: 100,
-		def: 105,
-		spa: 145,
-		spd: 105,
-		spe: 95
-	},
-	abilities: {
-		0: "Mystic Veil"
-	},
-	heightm: 0.0,
-	weightkg: 0.0,
-	color: "Red"
-	eggGroups: ["Undiscovered"]
-},
+simorgh:{num: -801,species: "Simorgh",types: ["Fire", "Flying"],genderRatio:{M: 0.25,F: 0.75},baseStats:{hp: 80,atk: 110,def: 90,spa: 60,spd: 90,spe: 100},abilities:{0: "Enraged"},heightm: 0.0,weightkg: 0.0,color: "Red",eggGroups: ["Undiscovered"],otherFormes: ["simorghmega"]},
+simorghmega:{num: -801,species: "Simorgh-Mega",baseSpecies: "Simorgh",forme: "Mega",formeLetter: "M",types: ["Fire", "Flying"],genderRatio: {M: 0.25,F: 0.75},baseStats: {hp: 80,atk: 100,def: 105,spa: 145,spd: 105,spe: 95},abilities: {0: "Mystic Veil"},heightm: 0.0,weightkg: 0.0,color: "Red",eggGroups: ["Undiscovered"]},
 waterstarter: {
 	num: -802,
 	species: waterstarter,
@@ -377,9 +327,9 @@ mirrage: {
 	color: "White",
 	eggGroups: ["Undiscovered"]
 },
-skulprit: {
+mystook: {
 	num: -815,
-	species: "Skulprit",
+	species: "Mystook",
 	types: ["Ghost"],
 	baseStats: {
 		hp: 160,
@@ -671,7 +621,7 @@ farenheat: {
 celsice: {
 	num: -831,
 	species: "Celsice",
-	types: ["Ice"],
+	types: ["Ice", "Water"],
 	baseStats: {
 		def: 73,
 		atk: 112,
@@ -708,9 +658,9 @@ spychic: {
 	color: "Color",
 	eggGroups: ["Undiscovered"]
 },
-murdoom: {
+akourok: {
 	num: -834,
-	species: "Murdoom",
+	species: "Akourok",
 	types: ["Dark", "Fighting"],
 	baseStats: {
 		hp: 80,
@@ -728,30 +678,31 @@ murdoom: {
 	color: "Black",
 	eggGroups: ["Undiscovered"]
 },
-namethirtysix: {
-	num: -836,
-	species: "Name-ThirtySix",
-	types: ["Bug", "Dragon"],
-	baseStats: {
-		hp: 81,
-		atk: 110,
-		def: 80,
-		spa: 30,
-		spd: 80,
-		spe: 99
-	},
-	abilities: {
-		0: "Levitate",
-		H: "Sharp Shooter"
-	},
-	heightm: 0.0,
-	weightkg: 0.0,
-	color: "Color",
-	eggGroups: ["Undiscovered"]	
-},
-namethirtyseven: {
+//not in beta
+//namethirtysix: {
+//	num: -836,
+//	species: "Name-ThirtySix",
+//	types: ["Bug", "Dragon"],
+//	baseStats: {
+//		hp: 81,
+//		atk: 110,
+//		def: 80,
+//		spa: 30,
+//		spd: 80,
+//		spe: 99
+//	},
+//	abilities: {
+//		0: "Levitate",
+//		H: "Sharp Shooter"
+//	},
+//	heightm: 0.0,
+//	weightkg: 0.0,
+//	color: "Color",
+//	eggGroups: ["Undiscovered"]	
+//},
+rikuri: {
 	num: -837,
-	species: "Name-ThirtySeven",
+	species: "Rikuri",
 	types: ["Steel", "Dragon"],
 	baseStats: {
 		hp: 107,
@@ -851,9 +802,53 @@ namefortyone: {
 	},
 	heightm: 0.0,
 	weightkg: 0.0,
-	color: "Color",
+	color: " ",
 	eggGroups: ["Undiscovered"]
 },
+armorillo: {
+	num: -842,
+	species: "Armorillo",
+	types: ["Rock", "Fighting"],
+	baseStats: {
+		hp: 80,
+		atk: 135,
+		def: 140,
+		spa: 50,
+		spd: 70,
+		spe: 75
+	},
+	abilities: {
+		0: "Endurance"
+		H: "Berserk"
+	},
+	heightm: 0.0,
+	weightkg: 0.0,
+	color: " ",
+	eggGroups: ["Undiscovered"]
+},
+wispher: {
+        num: -849,
+	species: Wispher,
+	types: ["Ghost","Fairy"],
+	gender: "F",
+	baseStats: {
+		hp: 75,
+		atk: 99,
+		def: 90,
+		spa: 99,
+		spd: 94,
+		spe: 111
+	},
+	abilities: {
+		0: "Mastery",
+		1: "Sharp Eye"
+	},
+	heightm: 1.3,
+	wieghtkg: 0.1,
+	color: "purple",
+	eggGroups: ["Undiscovered"]
+},
+
 charidbyss: {
 	num: -851,
 	species: "Charidbyss",
