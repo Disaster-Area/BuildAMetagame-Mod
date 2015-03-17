@@ -39,15 +39,15 @@ exports.BattleMoves = {
 		return totalTypeMod;
 	}
 },
-"boom": {
+"detonation": {
 	accuracy: 100,
 	basePower: 250,
 	category: "Physical",
 	desc: "The user explodes and leaves a huge crater in its place. The user faints.",
 	shortDesc: "Hits every Pokemon on the battlefield. The user faints.",
-	id: "boom",
+	id: "detonation",
 	isNonstandard: true,
-	name: "Boom",
+	name: "Detonation",
 	pp: 5,
 	priority: 0,
 	selfdestruct: true,
