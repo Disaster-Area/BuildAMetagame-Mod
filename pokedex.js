@@ -54,9 +54,9 @@ waterstartermega: {
 	color: "Blue"
 	eggGroups: ["Undiscovered"]
 },
-flytrap: {
+ventrap: {
 	num: -803,
-	species: "Flytrap",
+	species: "Ventrap",
 	types: ["Grass", "Poison"],
 	baseStats: {
 		hp: 65,
@@ -75,10 +75,10 @@ flytrap: {
 	eggGroups: ["Undiscovered"],
 	otherFormes: ["flytrapmega"]
 },
-flytrapmega: {
+ventrapmega: {
 	num: -803,
-	species: "Flytrap-Mega",
-	baseSpecies: "Flytrap",
+	species: "Ventrap-Mega",
+	baseSpecies: "Ventrap",
 	forme: "Mega",
 	formeLetter: "M",
 	types: ["Grass", "Poison"],
